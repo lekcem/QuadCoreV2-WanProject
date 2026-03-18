@@ -1,0 +1,10 @@
+Mar 18 09:58:39.780 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 18 09:58:39.783 HYPERVISOR: Started on IP = localhost, TCP port = 56267.
+Mar 18 09:58:40.209 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 18 09:58:40.211 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\mecke\Documents\GitHub\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Mar 18 09:58:40.211 GENERAL: working_dir=C:\Users\mecke\Documents\GitHub\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Mar 18 09:58:40.211 HYPERVISOR: exec_cmd: atmsw create ATMSW4 
+Mar 18 14:19:42.911 HYPERVISOR: exec_cmd: atmsw delete ATMSW4 
+Mar 18 14:19:42.931 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 18 14:19:43.340 HYPERVISOR: Stopped.
+Mar 18 14:19:43.340 GENERAL: reset done.
