@@ -1,0 +1,33 @@
+Mar 29 00:22:47.105 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 29 00:22:47.106 HYPERVISOR: Started on IP = localhost, TCP port = 61813.
+Mar 29 00:22:47.591 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 29 00:22:47.592 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Mar 29 00:22:47.592 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Mar 29 00:22:47.592 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\63bd8cdb-f3fe-44a7-8b3a-5d3709088783 
+Mar 29 00:22:47.597 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\63bd8cdb-f3fe-44a7-8b3a-5d3709088783
+Mar 29 00:22:47.597 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Mar 29 00:22:47.598 VM: VM R2 created.
+Mar 29 00:22:47.599 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5007 
+Mar 29 00:22:47.599 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Mar 29 00:22:47.599 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Mar 29 00:22:47.600 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Mar 29 00:22:47.601 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.601 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa1da0 
+Mar 29 00:22:47.602 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Mar 29 00:22:47.602 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.495c.0000 
+Mar 29 00:22:47.603 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Mar 29 00:22:47.603 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Mar 29 00:22:47.603 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.603 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Mar 29 00:22:47.604 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.604 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm slot_add_binding R2 3 0 NM-1FE-TX 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm slot_add_binding R2 4 0 NM-1FE-TX 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.605 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 16 WIC-2T 
+Mar 29 00:22:47.606 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.606 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 32 WIC-2T 
+Mar 29 00:22:47.606 HYPERVISOR: exec_cmd: vm get_status R2 
+Mar 29 00:22:47.606 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 48 WIC-2T 

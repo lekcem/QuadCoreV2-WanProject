@@ -22,44 +22,13 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"2928\" height=\"1508\"><rect width=\"2928\" height=\"1508\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -1786,
-                "y": -1901,
+                "x": -1804,
+                "y": -2058,
                 "z": -2
             }
         ],
         "links": [],
         "nodes": [
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 48,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATMSW1",
-                    "x": -7,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "ATMSW1",
-                "node_id": "49eb5e6b-0fd6-4574-8bc9-97862c9bc257",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {}
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "template_id": "aaa764e2-b383-300f-8a0e-3493bbfdb7d2",
-                "width": 51,
-                "x": -213,
-                "y": -196,
-                "z": 1
-            },
             {
                 "compute_id": "local",
                 "console": 5000,
@@ -255,99 +224,6 @@
                 "width": 65,
                 "x": -551,
                 "y": -207,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 48,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATMSW2",
-                    "x": -7,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "ATMSW2",
-                "node_id": "593f07c9-db3d-4863-86f0-1e147e1e36e3",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {}
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "template_id": "aaa764e2-b383-300f-8a0e-3493bbfdb7d2",
-                "width": 51,
-                "x": -114,
-                "y": -198,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 48,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATMSW3",
-                    "x": -7,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "ATMSW3",
-                "node_id": "08267e6b-ac8f-4046-9641-4d215533416e",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {}
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "template_id": "aaa764e2-b383-300f-8a0e-3493bbfdb7d2",
-                "width": 51,
-                "x": -214,
-                "y": -101,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": null,
-                "console_auto_start": false,
-                "console_type": "none",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 48,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ATMSW4",
-                    "x": -7,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "ATMSW4",
-                "node_id": "cbbbd317-5693-4354-84e8-9503fba18578",
-                "node_type": "atm_switch",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {
-                    "mappings": {}
-                },
-                "symbol": ":/symbols/atm_switch.svg",
-                "template_id": "aaa764e2-b383-300f-8a0e-3493bbfdb7d2",
-                "width": 51,
-                "x": -119,
-                "y": -99,
                 "z": 1
             },
             {
@@ -1444,6 +1320,130 @@
                 "width": 65,
                 "x": 356,
                 "y": -231,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "FRSW1",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "FRSW1",
+                "node_id": "47577e42-25c8-4098-81e9-a068aa95f082",
+                "node_type": "frame_relay_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {}
+                },
+                "symbol": ":/symbols/frame_relay_switch.svg",
+                "template_id": "dd0f6f3a-ba58-3249-81cb-a1dd88407a47",
+                "width": 51,
+                "x": -228,
+                "y": -196,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "FRSW2",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "FRSW2",
+                "node_id": "16d7a5f3-2cac-4c13-904f-335a71769456",
+                "node_type": "frame_relay_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {}
+                },
+                "symbol": ":/symbols/frame_relay_switch.svg",
+                "template_id": "dd0f6f3a-ba58-3249-81cb-a1dd88407a47",
+                "width": 51,
+                "x": -95,
+                "y": -194,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "FRSW3",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "FRSW3",
+                "node_id": "c97db388-4311-4238-9d34-46d696214df6",
+                "node_type": "frame_relay_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {}
+                },
+                "symbol": ":/symbols/frame_relay_switch.svg",
+                "template_id": "dd0f6f3a-ba58-3249-81cb-a1dd88407a47",
+                "width": 51,
+                "x": -211,
+                "y": -76,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "FRSW4",
+                    "x": -9,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "FRSW4",
+                "node_id": "336cb30d-977f-4e71-a676-af879695ebbc",
+                "node_type": "frame_relay_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "mappings": {}
+                },
+                "symbol": ":/symbols/frame_relay_switch.svg",
+                "template_id": "dd0f6f3a-ba58-3249-81cb-a1dd88407a47",
+                "width": 51,
+                "x": -85,
+                "y": -87,
                 "z": 1
             }
         ]
