@@ -1,0 +1,12 @@
+Apr 02 13:35:22.116 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 13:35:22.117 HYPERVISOR: Started on IP = localhost, TCP port = 50362.
+Apr 02 13:35:22.622 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 13:35:22.622 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 13:35:22.622 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 13:35:22.623 HYPERVISOR: exec_cmd: ethsw create SA-SW1 
+Apr 02 13:35:35.548 HYPERVISOR: exec_cmd: nio create_udp udp-bc8bc44e-c7b7-422b-a11f-be5e96d57baf 10013 127.0.0.1 10012 
+Apr 02 13:35:35.549 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW1 udp-bc8bc44e-c7b7-422b-a11f-be5e96d57baf 
+Apr 02 13:35:35.561 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW1 udp-bc8bc44e-c7b7-422b-a11f-be5e96d57baf 1 
+Apr 02 13:35:35.656 HYPERVISOR: exec_cmd: nio create_udp udp-ddb6c818-a79d-4774-b3e3-635cf5e95b33 10014 127.0.0.1 10015 
+Apr 02 13:35:35.657 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW1 udp-ddb6c818-a79d-4774-b3e3-635cf5e95b33 
+Apr 02 13:35:35.686 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW1 udp-ddb6c818-a79d-4774-b3e3-635cf5e95b33 1 
