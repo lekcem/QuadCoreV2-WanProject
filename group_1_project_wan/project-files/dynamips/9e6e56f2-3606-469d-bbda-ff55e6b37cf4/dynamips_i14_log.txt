@@ -1,0 +1,48 @@
+Apr 02 12:01:10.742 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 12:01:10.743 HYPERVISOR: Started on IP = localhost, TCP port = 65086.
+Apr 02 12:01:11.248 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 12:01:11.249 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 12:01:11.250 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 12:01:11.250 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\92593bf4-cd30-4049-8808-372635436d6c 
+Apr 02 12:01:11.252 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\92593bf4-cd30-4049-8808-372635436d6c
+Apr 02 12:01:11.252 HYPERVISOR: exec_cmd: vm create STUD-4 8 c3745 
+Apr 02 12:01:11.253 VM: VM STUD-4 created.
+Apr 02 12:01:11.254 HYPERVISOR: exec_cmd: vm set_con_tcp_port STUD-4 5027 
+Apr 02 12:01:11.255 HYPERVISOR: exec_cmd: c3745 get_mac_addr STUD-4 
+Apr 02 12:01:11.255 HYPERVISOR: exec_cmd: vm set_disk0 STUD-4 0 
+Apr 02 12:01:11.255 HYPERVISOR: exec_cmd: vm set_exec_area STUD-4 64 
+Apr 02 12:01:11.256 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.257 HYPERVISOR: exec_cmd: vm set_idle_pc STUD-4 0x60aa1da0 
+Apr 02 12:01:11.258 HYPERVISOR: exec_cmd: vm set_ios STUD-4 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:01:11.258 HYPERVISOR: exec_cmd: c3745 set_mac_addr STUD-4 c408.e328.0000 
+Apr 02 12:01:11.258 HYPERVISOR: exec_cmd: vm set_nvram STUD-4 256 
+Apr 02 12:01:11.259 HYPERVISOR: exec_cmd: vm set_ram STUD-4 256 
+Apr 02 12:01:11.259 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.260 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 1 0 NM-1FE-TX 
+Apr 02 12:01:11.260 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.260 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 2 0 NM-1FE-TX 
+Apr 02 12:01:11.262 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.262 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 3 0 NM-1FE-TX 
+Apr 02 12:01:11.262 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.263 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 4 0 NM-1FE-TX 
+Apr 02 12:01:11.263 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.263 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 0 16 WIC-2T 
+Apr 02 12:01:11.263 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.264 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 0 32 WIC-2T 
+Apr 02 12:01:11.264 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:11.264 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-4 0 48 WIC-2T 
+Apr 02 12:01:25.655 HYPERVISOR: exec_cmd: nio create_udp udp-d35322ef-4f1d-47c7-bfe7-21214e9ed0d1 10040 127.0.0.1 10041 
+Apr 02 12:01:25.929 HYPERVISOR: exec_cmd: vm slot_add_nio_binding STUD-4 0 0 udp-d35322ef-4f1d-47c7-bfe7-21214e9ed0d1 
+Apr 02 12:01:25.930 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:01:44.782 HYPERVISOR: exec_cmd: nio create_udp udp-34fbe9a4-34cb-4e0e-aec8-1f5411b0d5c1 10230 127.0.0.1 10231 
+Apr 02 12:01:44.784 HYPERVISOR: exec_cmd: vm slot_add_nio_binding STUD-4 0 16 udp-34fbe9a4-34cb-4e0e-aec8-1f5411b0d5c1 
+Apr 02 12:01:44.785 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:50:29.667 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:50:29.670 HYPERVISOR: exec_cmd: vm extract_config STUD-4 
+Apr 02 12:50:30.172 HYPERVISOR: exec_cmd: vm get_status STUD-4 
+Apr 02 12:50:30.178 HYPERVISOR: exec_cmd: vm extract_config STUD-4 
+Apr 02 12:50:30.179 HYPERVISOR: exec_cmd: vm delete STUD-4 
+Apr 02 12:50:30.181 VM: VM STUD-4 destroyed.
+Apr 02 12:50:30.188 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 02 12:50:30.655 HYPERVISOR: Stopped.
+Apr 02 12:50:30.655 GENERAL: reset done.

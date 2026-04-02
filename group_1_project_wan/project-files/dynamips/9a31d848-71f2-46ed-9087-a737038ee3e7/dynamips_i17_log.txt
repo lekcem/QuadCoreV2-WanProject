@@ -1,0 +1,51 @@
+Apr 02 12:01:12.021 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 12:01:12.023 HYPERVISOR: Started on IP = localhost, TCP port = 65097.
+Apr 02 12:01:12.023 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 12:01:12.024 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 12:01:12.024 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 12:01:12.025 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\7e32a730-d8d4-481c-9832-927ddd44e136 
+Apr 02 12:01:12.025 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\7e32a730-d8d4-481c-9832-927ddd44e136
+Apr 02 12:01:12.025 HYPERVISOR: exec_cmd: vm create FR3 10 c3745 
+Apr 02 12:01:12.026 VM: VM FR3 created.
+Apr 02 12:01:12.027 HYPERVISOR: exec_cmd: vm set_con_tcp_port FR3 5034 
+Apr 02 12:01:12.027 HYPERVISOR: exec_cmd: c3745 get_mac_addr FR3 
+Apr 02 12:01:12.027 HYPERVISOR: exec_cmd: vm set_disk0 FR3 0 
+Apr 02 12:01:12.028 HYPERVISOR: exec_cmd: vm set_exec_area FR3 64 
+Apr 02 12:01:12.029 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.029 HYPERVISOR: exec_cmd: vm set_idle_pc FR3 0x60aa1da0 
+Apr 02 12:01:12.030 HYPERVISOR: exec_cmd: vm set_ios FR3 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:01:12.031 HYPERVISOR: exec_cmd: c3745 set_mac_addr FR3 c40a.80c4.0000 
+Apr 02 12:01:12.032 HYPERVISOR: exec_cmd: vm set_nvram FR3 256 
+Apr 02 12:01:12.032 HYPERVISOR: exec_cmd: vm set_ram FR3 256 
+Apr 02 12:01:12.033 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.033 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 1 0 NM-1FE-TX 
+Apr 02 12:01:12.033 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.034 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 2 0 NM-1FE-TX 
+Apr 02 12:01:12.034 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.034 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 3 0 NM-1FE-TX 
+Apr 02 12:01:12.035 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.035 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 4 0 NM-1FE-TX 
+Apr 02 12:01:12.036 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.036 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 0 16 WIC-2T 
+Apr 02 12:01:12.037 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.037 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 0 32 WIC-2T 
+Apr 02 12:01:12.038 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:12.038 HYPERVISOR: exec_cmd: vm slot_add_binding FR3 0 48 WIC-2T 
+Apr 02 12:01:28.835 HYPERVISOR: exec_cmd: nio create_udp udp-ddd3fb42-6126-47f1-919e-c0b6c24e630c 10068 127.0.0.1 10069 
+Apr 02 12:01:29.130 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FR3 0 16 udp-ddd3fb42-6126-47f1-919e-c0b6c24e630c 
+Apr 02 12:01:29.131 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:29.247 HYPERVISOR: exec_cmd: nio create_udp udp-63901db6-6f74-441f-9ce2-b6701cf93038 10072 127.0.0.1 10073 
+Apr 02 12:01:29.250 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FR3 0 17 udp-63901db6-6f74-441f-9ce2-b6701cf93038 
+Apr 02 12:01:29.251 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:01:29.690 HYPERVISOR: exec_cmd: nio create_udp udp-3f5376ae-9833-47f9-850f-bc043afe9f15 10090 127.0.0.1 10091 
+Apr 02 12:01:29.693 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FR3 0 32 udp-3f5376ae-9833-47f9-850f-bc043afe9f15 
+Apr 02 12:01:29.693 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:50:29.680 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:50:29.683 HYPERVISOR: exec_cmd: vm extract_config FR3 
+Apr 02 12:50:29.818 HYPERVISOR: exec_cmd: vm get_status FR3 
+Apr 02 12:50:29.820 HYPERVISOR: exec_cmd: vm extract_config FR3 
+Apr 02 12:50:29.825 HYPERVISOR: exec_cmd: vm delete FR3 
+Apr 02 12:50:29.826 VM: VM FR3 destroyed.
+Apr 02 12:50:29.830 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 02 12:50:30.146 HYPERVISOR: Stopped.
+Apr 02 12:50:30.146 GENERAL: reset done.

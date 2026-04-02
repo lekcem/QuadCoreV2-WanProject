@@ -1,0 +1,50 @@
+Apr 02 12:01:18.969 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 12:01:18.972 HYPERVISOR: Started on IP = localhost, TCP port = 52844.
+Apr 02 12:01:19.450 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 12:01:19.451 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 12:01:19.451 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 12:01:19.451 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\f377fe31-e073-4c32-9f1c-f59cd866ea5c 
+Apr 02 12:01:19.489 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\f377fe31-e073-4c32-9f1c-f59cd866ea5c
+Apr 02 12:01:19.489 HYPERVISOR: exec_cmd: vm create Hop8 24 c3745 
+Apr 02 12:01:19.491 VM: VM Hop8 created.
+Apr 02 12:01:19.492 HYPERVISOR: exec_cmd: vm set_con_tcp_port Hop8 5049 
+Apr 02 12:01:19.493 HYPERVISOR: exec_cmd: c3745 get_mac_addr Hop8 
+Apr 02 12:01:19.493 HYPERVISOR: exec_cmd: vm set_disk0 Hop8 0 
+Apr 02 12:01:19.494 HYPERVISOR: exec_cmd: vm set_exec_area Hop8 64 
+Apr 02 12:01:19.495 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.495 HYPERVISOR: exec_cmd: vm set_idle_pc Hop8 0x60aa1da0 
+Apr 02 12:01:19.497 HYPERVISOR: exec_cmd: vm set_ios Hop8 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:01:19.497 HYPERVISOR: exec_cmd: c3745 set_mac_addr Hop8 c418.93f8.0000 
+Apr 02 12:01:19.498 HYPERVISOR: exec_cmd: vm set_nvram Hop8 256 
+Apr 02 12:01:19.499 HYPERVISOR: exec_cmd: vm set_ram Hop8 256 
+Apr 02 12:01:19.499 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.500 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 1 0 NM-1FE-TX 
+Apr 02 12:01:19.500 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.500 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 2 0 NM-1FE-TX 
+Apr 02 12:01:19.501 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.501 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 3 0 NM-1FE-TX 
+Apr 02 12:01:19.501 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.501 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 4 0 NM-1FE-TX 
+Apr 02 12:01:19.502 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.502 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 0 16 WIC-2T 
+Apr 02 12:01:19.503 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.503 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 0 32 WIC-2T 
+Apr 02 12:01:19.503 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:19.504 HYPERVISOR: exec_cmd: vm slot_add_binding Hop8 0 48 WIC-2T 
+Apr 02 12:01:37.092 HYPERVISOR: exec_cmd: nio create_udp udp-3f20e35c-695a-462c-b1f1-5d84e9d22c7a 10170 127.0.0.1 10171 
+Apr 02 12:01:37.951 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Hop8 0 16 udp-3f20e35c-695a-462c-b1f1-5d84e9d22c7a 
+Apr 02 12:01:37.951 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:01:38.068 HYPERVISOR: exec_cmd: nio create_udp udp-bef5f357-b625-41c2-96d9-fbb3b98b695d 10174 127.0.0.1 10175 
+Apr 02 12:01:38.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Hop8 0 17 udp-bef5f357-b625-41c2-96d9-fbb3b98b695d 
+Apr 02 12:01:38.073 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:44:01.863 HYPERVISOR: exec_cmd: vm set_ios Hop8 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:44:29.592 HYPERVISOR: exec_cmd: vm set_ios Hop8 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:50:29.719 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:50:29.721 HYPERVISOR: exec_cmd: vm extract_config Hop8 
+Apr 02 12:50:30.181 HYPERVISOR: exec_cmd: vm get_status Hop8 
+Apr 02 12:50:30.185 HYPERVISOR: exec_cmd: vm extract_config Hop8 
+Apr 02 12:50:30.191 HYPERVISOR: exec_cmd: vm delete Hop8 
+Apr 02 12:50:30.191 VM: VM Hop8 destroyed.
+Apr 02 12:50:30.198 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 02 12:50:30.655 HYPERVISOR: Stopped.
+Apr 02 12:50:30.655 GENERAL: reset done.

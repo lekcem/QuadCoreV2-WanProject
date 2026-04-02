@@ -1,0 +1,55 @@
+Apr 02 12:01:08.901 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 12:01:08.901 HYPERVISOR: Started on IP = localhost, TCP port = 52986.
+Apr 02 12:01:09.401 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 12:01:09.401 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 12:01:09.402 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 12:01:09.402 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\75def392-5d25-4eec-b0e1-612662c2416e 
+Apr 02 12:01:09.408 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\75def392-5d25-4eec-b0e1-612662c2416e
+Apr 02 12:01:09.408 HYPERVISOR: exec_cmd: vm create STUD-2 6 c3745 
+Apr 02 12:01:09.410 VM: VM STUD-2 created.
+Apr 02 12:01:09.411 HYPERVISOR: exec_cmd: vm set_con_tcp_port STUD-2 5017 
+Apr 02 12:01:09.411 HYPERVISOR: exec_cmd: c3745 get_mac_addr STUD-2 
+Apr 02 12:01:09.411 HYPERVISOR: exec_cmd: vm set_disk0 STUD-2 0 
+Apr 02 12:01:09.412 HYPERVISOR: exec_cmd: vm set_exec_area STUD-2 64 
+Apr 02 12:01:09.413 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.413 HYPERVISOR: exec_cmd: vm set_idle_pc STUD-2 0x60aa1da0 
+Apr 02 12:01:09.414 HYPERVISOR: exec_cmd: vm set_ios STUD-2 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:01:09.415 HYPERVISOR: exec_cmd: c3745 set_mac_addr STUD-2 c406.e7cc.0000 
+Apr 02 12:01:09.415 HYPERVISOR: exec_cmd: vm set_nvram STUD-2 256 
+Apr 02 12:01:09.416 HYPERVISOR: exec_cmd: vm set_ram STUD-2 256 
+Apr 02 12:01:09.417 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.417 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 1 0 NM-1FE-TX 
+Apr 02 12:01:09.417 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.417 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 2 0 NM-1FE-TX 
+Apr 02 12:01:09.419 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.419 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 3 0 NM-1FE-TX 
+Apr 02 12:01:09.419 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.420 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 4 0 NM-1FE-TX 
+Apr 02 12:01:09.420 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.420 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 0 16 WIC-2T 
+Apr 02 12:01:09.421 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.421 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 0 32 WIC-2T 
+Apr 02 12:01:09.422 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:09.422 HYPERVISOR: exec_cmd: vm slot_add_binding STUD-2 0 48 WIC-2T 
+Apr 02 12:01:24.410 HYPERVISOR: exec_cmd: nio create_udp udp-b49feaa5-76f3-4648-97e7-0f2640cae294 10026 127.0.0.1 10027 
+Apr 02 12:01:24.676 HYPERVISOR: exec_cmd: vm slot_add_nio_binding STUD-2 0 0 udp-b49feaa5-76f3-4648-97e7-0f2640cae294 
+Apr 02 12:01:24.677 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:01:44.617 HYPERVISOR: exec_cmd: nio create_udp udp-d111f440-c7e1-43c3-b0d4-38a05a4c6d8c 10218 127.0.0.1 10219 
+Apr 02 12:01:44.619 HYPERVISOR: exec_cmd: vm slot_add_nio_binding STUD-2 0 16 udp-d111f440-c7e1-43c3-b0d4-38a05a4c6d8c 
+Apr 02 12:01:44.620 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:43:46.508 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:43:46.509 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding STUD-2 0 16 
+Apr 02 12:43:46.510 HYPERVISOR: exec_cmd: nio delete udp-d111f440-c7e1-43c3-b0d4-38a05a4c6d8c 
+Apr 02 12:49:42.033 HYPERVISOR: exec_cmd: nio create_udp udp-74dd273f-3e03-4f8f-a75a-8f06ef97be3e 10240 127.0.0.1 10241 
+Apr 02 12:49:42.036 HYPERVISOR: exec_cmd: vm slot_add_nio_binding STUD-2 0 16 udp-74dd273f-3e03-4f8f-a75a-8f06ef97be3e 
+Apr 02 12:49:42.036 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:50:21.199 HYPERVISOR: exec_cmd: vm set_ios STUD-2 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:50:29.646 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:50:29.647 HYPERVISOR: exec_cmd: vm extract_config STUD-2 
+Apr 02 12:50:30.178 HYPERVISOR: exec_cmd: vm get_status STUD-2 
+Apr 02 12:50:30.182 HYPERVISOR: exec_cmd: vm extract_config STUD-2 
+Apr 02 12:50:30.189 HYPERVISOR: exec_cmd: vm delete STUD-2 
+Apr 02 12:50:30.189 VM: VM STUD-2 destroyed.
+Apr 02 12:50:30.196 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 02 12:50:30.655 HYPERVISOR: Stopped.
+Apr 02 12:50:30.655 GENERAL: reset done.

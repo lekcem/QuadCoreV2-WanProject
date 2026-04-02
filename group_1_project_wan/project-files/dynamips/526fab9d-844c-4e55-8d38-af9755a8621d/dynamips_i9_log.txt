@@ -1,0 +1,54 @@
+Apr 02 12:01:08.313 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 02 12:01:08.314 HYPERVISOR: Started on IP = localhost, TCP port = 52983.
+Apr 02 12:01:08.816 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 02 12:01:08.816 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 02 12:01:08.817 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 02 12:01:08.817 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\b5bd697e-8b32-4f89-b96d-7686f4793e47 
+Apr 02 12:01:08.823 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\b5bd697e-8b32-4f89-b96d-7686f4793e47
+Apr 02 12:01:08.823 HYPERVISOR: exec_cmd: vm create FRX1 5 c3745 
+Apr 02 12:01:08.825 VM: VM FRX1 created.
+Apr 02 12:01:08.825 HYPERVISOR: exec_cmd: vm set_con_tcp_port FRX1 5016 
+Apr 02 12:01:08.826 HYPERVISOR: exec_cmd: c3745 get_mac_addr FRX1 
+Apr 02 12:01:08.826 HYPERVISOR: exec_cmd: vm set_disk0 FRX1 0 
+Apr 02 12:01:08.827 HYPERVISOR: exec_cmd: vm set_exec_area FRX1 64 
+Apr 02 12:01:08.828 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.828 HYPERVISOR: exec_cmd: vm set_idle_pc FRX1 0x60aa1da0 
+Apr 02 12:01:08.829 HYPERVISOR: exec_cmd: vm set_ios FRX1 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 02 12:01:08.830 HYPERVISOR: exec_cmd: c3745 set_mac_addr FRX1 c405.c688.0000 
+Apr 02 12:01:08.831 HYPERVISOR: exec_cmd: vm set_nvram FRX1 256 
+Apr 02 12:01:08.831 HYPERVISOR: exec_cmd: vm set_ram FRX1 256 
+Apr 02 12:01:08.832 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.832 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 1 0 NM-1FE-TX 
+Apr 02 12:01:08.833 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.833 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 2 0 NM-1FE-TX 
+Apr 02 12:01:08.833 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.834 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 3 0 NM-1FE-TX 
+Apr 02 12:01:08.834 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.834 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 4 0 NM-1FE-TX 
+Apr 02 12:01:08.835 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.835 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 0 16 WIC-2T 
+Apr 02 12:01:08.836 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.836 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 0 32 WIC-2T 
+Apr 02 12:01:08.836 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:08.836 HYPERVISOR: exec_cmd: vm slot_add_binding FRX1 0 48 WIC-2T 
+Apr 02 12:01:29.703 HYPERVISOR: exec_cmd: nio create_udp udp-f4ae1de7-da8c-4047-9954-2e9c8549dd03 10092 127.0.0.1 10093 
+Apr 02 12:01:29.995 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FRX1 0 16 udp-f4ae1de7-da8c-4047-9954-2e9c8549dd03 
+Apr 02 12:01:29.996 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:01:44.702 HYPERVISOR: exec_cmd: nio create_udp udp-92b39e01-fd49-44a7-8342-77fefe409573 10224 127.0.0.1 10225 
+Apr 02 12:01:44.705 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FRX1 0 17 udp-92b39e01-fd49-44a7-8342-77fefe409573 
+Apr 02 12:01:44.705 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:43:44.308 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:43:44.308 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding FRX1 0 17 
+Apr 02 12:43:44.309 HYPERVISOR: exec_cmd: nio delete udp-92b39e01-fd49-44a7-8342-77fefe409573 
+Apr 02 12:48:16.614 HYPERVISOR: exec_cmd: nio create_udp udp-23c40fb7-d929-4306-89ae-009a802e1f64 10234 127.0.0.1 10235 
+Apr 02 12:48:16.617 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FRX1 0 17 udp-23c40fb7-d929-4306-89ae-009a802e1f64 
+Apr 02 12:48:16.617 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:50:29.644 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:50:29.645 HYPERVISOR: exec_cmd: vm extract_config FRX1 
+Apr 02 12:50:29.812 HYPERVISOR: exec_cmd: vm get_status FRX1 
+Apr 02 12:50:29.816 HYPERVISOR: exec_cmd: vm extract_config FRX1 
+Apr 02 12:50:29.819 HYPERVISOR: exec_cmd: vm delete FRX1 
+Apr 02 12:50:29.819 VM: VM FRX1 destroyed.
+Apr 02 12:50:29.821 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 02 12:50:30.146 HYPERVISOR: Stopped.
+Apr 02 12:50:30.146 GENERAL: reset done.
