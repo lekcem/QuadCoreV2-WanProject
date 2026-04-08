@@ -1960,12 +1960,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "DHCP-NTP-DNS",
-                    "x": -37,
-                    "y": -25
+                    "text": "DHCP-NTP-DNS-ftp-iij-ad-jp",
+                    "x": -121,
+                    "y": 44
                 },
                 "locked": false,
-                "name": "DHCP-NTP-DNS",
+                "name": "DHCP-NTP-DNS-ftp-iij-ad-jp",
                 "node_id": "6c0bb701-660b-41f9-bf3e-834dbb2474ab",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2004,8 +2004,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "67202892-53c8-462a-9e5a-548c2974f5f3",
                 "width": 66,
-                "x": 0,
-                "y": -380,
+                "x": -9,
+                "y": -359,
                 "z": 1
             },
             {
