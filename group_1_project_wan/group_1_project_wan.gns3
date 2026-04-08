@@ -2247,8 +2247,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "STUD-2",
-                    "x": -3,
-                    "y": -25
+                    "x": -25,
+                    "y": -26
                 },
                 "locked": false,
                 "name": "STUD-2",
@@ -2911,7 +2911,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "d4c40e40-8a1d-40f4-aaac-1373d4a8465a",
                 "width": 66,
-                "x": -124,
+                "x": -122,
                 "y": -182,
                 "z": 1
             },
