@@ -1,0 +1,28 @@
+Apr 11 20:48:18.674 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 11 20:48:18.676 HYPERVISOR: Started on IP = localhost, TCP port = 59727.
+Apr 11 20:48:19.169 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 11 20:48:19.170 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 11 20:48:19.171 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 11 20:48:19.171 HYPERVISOR: exec_cmd: ethsw create SA-SW4 
+Apr 11 20:48:45.510 HYPERVISOR: exec_cmd: nio create_udp udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 10031 127.0.0.1 10030 
+Apr 11 20:48:45.512 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW4 udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 
+Apr 11 20:48:45.522 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 1 
+Apr 11 20:48:45.733 HYPERVISOR: exec_cmd: nio create_udp udp-727a00b7-a52c-4297-9331-ca84a144ddad 10034 127.0.0.1 10035 
+Apr 11 20:48:45.734 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW4 udp-727a00b7-a52c-4297-9331-ca84a144ddad 
+Apr 11 20:48:45.738 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-727a00b7-a52c-4297-9331-ca84a144ddad 1 
+Apr 11 20:48:45.945 HYPERVISOR: exec_cmd: nio create_udp udp-55f6ab32-c6dc-498d-998e-1bc907716da9 10036 127.0.0.1 10037 
+Apr 11 20:48:45.946 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW4 udp-55f6ab32-c6dc-498d-998e-1bc907716da9 
+Apr 11 20:48:45.956 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-55f6ab32-c6dc-498d-998e-1bc907716da9 1 
+Apr 11 20:50:49.526 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 1 
+Apr 11 20:50:49.703 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-727a00b7-a52c-4297-9331-ca84a144ddad 1 
+Apr 11 20:50:49.861 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-55f6ab32-c6dc-498d-998e-1bc907716da9 1 
+Apr 11 20:50:50.259 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 1 
+Apr 11 20:50:50.271 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-727a00b7-a52c-4297-9331-ca84a144ddad 1 
+Apr 11 20:50:50.444 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-55f6ab32-c6dc-498d-998e-1bc907716da9 1 
+Apr 11 20:50:51.507 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-8b9d7902-fdb3-4127-bb44-1cc2241cdf23 1 
+Apr 11 20:50:51.671 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-727a00b7-a52c-4297-9331-ca84a144ddad 1 
+Apr 11 20:50:51.680 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW4 udp-55f6ab32-c6dc-498d-998e-1bc907716da9 1 
+Apr 11 20:55:09.234 HYPERVISOR: exec_cmd: ethsw delete SA-SW4 
+Apr 11 20:55:09.323 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 11 20:55:09.821 HYPERVISOR: Stopped.
+Apr 11 20:55:09.821 GENERAL: reset done.

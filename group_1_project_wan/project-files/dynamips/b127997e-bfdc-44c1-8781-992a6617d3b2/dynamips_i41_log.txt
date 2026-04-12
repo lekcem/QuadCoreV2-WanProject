@@ -1,0 +1,52 @@
+Apr 11 20:48:36.333 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 11 20:48:36.334 HYPERVISOR: Started on IP = localhost, TCP port = 51070.
+Apr 11 20:48:36.822 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 11 20:48:36.823 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 11 20:48:36.823 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 11 20:48:36.824 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\7d7de3f1-f20b-41f4-8aff-692cdcc4bdca 
+Apr 11 20:48:36.824 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips\7d7de3f1-f20b-41f4-8aff-692cdcc4bdca
+Apr 11 20:48:36.825 HYPERVISOR: exec_cmd: vm create Hop24 33 c3745 
+Apr 11 20:48:36.827 VM: VM Hop24 created.
+Apr 11 20:48:36.828 HYPERVISOR: exec_cmd: vm set_con_tcp_port Hop24 5059 
+Apr 11 20:48:36.828 HYPERVISOR: exec_cmd: c3745 get_mac_addr Hop24 
+Apr 11 20:48:36.829 HYPERVISOR: exec_cmd: vm set_disk0 Hop24 0 
+Apr 11 20:48:36.829 HYPERVISOR: exec_cmd: vm set_exec_area Hop24 64 
+Apr 11 20:48:36.830 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.830 HYPERVISOR: exec_cmd: vm set_idle_pc Hop24 0x60aa1da0 
+Apr 11 20:48:36.832 HYPERVISOR: exec_cmd: vm set_ios Hop24 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 11 20:48:36.833 HYPERVISOR: exec_cmd: c3745 set_mac_addr Hop24 c421.4168.0000 
+Apr 11 20:48:36.833 HYPERVISOR: exec_cmd: vm set_nvram Hop24 256 
+Apr 11 20:48:36.834 HYPERVISOR: exec_cmd: vm set_ram Hop24 256 
+Apr 11 20:48:36.835 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.835 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 1 0 NM-1FE-TX 
+Apr 11 20:48:36.836 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.836 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 2 0 NM-1FE-TX 
+Apr 11 20:48:36.837 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.837 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 3 0 NM-1FE-TX 
+Apr 11 20:48:36.838 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.838 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 4 0 NM-1FE-TX 
+Apr 11 20:48:36.839 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.839 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 0 16 WIC-2T 
+Apr 11 20:48:36.840 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.840 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 0 32 WIC-2T 
+Apr 11 20:48:36.841 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:48:36.841 HYPERVISOR: exec_cmd: vm slot_add_binding Hop24 0 48 WIC-2T 
+Apr 11 20:49:20.374 HYPERVISOR: exec_cmd: nio create_udp udp-fd1c9be3-d9af-4844-86ac-c24bc2a6ed91 10270 127.0.0.1 10271 
+Apr 11 20:49:21.453 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Hop24 0 16 udp-fd1c9be3-d9af-4844-86ac-c24bc2a6ed91 
+Apr 11 20:49:21.454 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:49:21.641 HYPERVISOR: exec_cmd: nio create_udp udp-a94ee032-0514-4a5f-b9ac-cb175047b658 10274 127.0.0.1 10275 
+Apr 11 20:49:21.645 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Hop24 0 17 udp-a94ee032-0514-4a5f-b9ac-cb175047b658 
+Apr 11 20:49:21.646 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:50:47.172 HYPERVISOR: exec_cmd: vm set_ios Hop24 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 11 20:51:58.660 HYPERVISOR: exec_cmd: vm set_ios Hop24 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 11 20:52:02.217 HYPERVISOR: exec_cmd: vm set_ios Hop24 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 11 20:52:02.972 HYPERVISOR: exec_cmd: vm set_ios Hop24 C:/Users/caleb/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 11 20:55:09.179 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:55:09.181 HYPERVISOR: exec_cmd: vm extract_config Hop24 
+Apr 11 20:55:09.632 HYPERVISOR: exec_cmd: vm get_status Hop24 
+Apr 11 20:55:09.633 HYPERVISOR: exec_cmd: vm extract_config Hop24 
+Apr 11 20:55:09.634 HYPERVISOR: exec_cmd: vm delete Hop24 
+Apr 11 20:55:09.634 VM: VM Hop24 destroyed.
+Apr 11 20:55:09.636 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 11 20:55:10.082 HYPERVISOR: Stopped.
+Apr 11 20:55:10.082 GENERAL: reset done.

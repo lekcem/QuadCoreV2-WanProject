@@ -1,0 +1,38 @@
+Apr 11 20:48:35.086 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 11 20:48:35.088 HYPERVISOR: Started on IP = localhost, TCP port = 51064.
+Apr 11 20:48:35.577 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 11 20:48:35.578 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips 
+Apr 11 20:48:35.579 GENERAL: working_dir=C:\Users\caleb\OneDrive\Desktop\Quadcoreproject\QuadCoreV2-WanProject\group_1_project_wan\project-files\dynamips
+Apr 11 20:48:35.579 HYPERVISOR: exec_cmd: ethsw create SA-SW77 
+Apr 11 20:49:17.020 HYPERVISOR: exec_cmd: nio create_udp udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 10238 127.0.0.1 10239 
+Apr 11 20:49:17.020 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 
+Apr 11 20:49:17.029 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 1 
+Apr 11 20:49:17.211 HYPERVISOR: exec_cmd: nio create_udp udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 10242 127.0.0.1 10243 
+Apr 11 20:49:17.213 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 
+Apr 11 20:49:17.219 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 1 
+Apr 11 20:49:17.398 HYPERVISOR: exec_cmd: nio create_udp udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 10246 127.0.0.1 10247 
+Apr 11 20:49:17.399 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 
+Apr 11 20:49:17.402 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 1 
+Apr 11 20:49:17.582 HYPERVISOR: exec_cmd: nio create_udp udp-dd359a30-5609-4223-8d47-fb21d1855979 10250 127.0.0.1 10251 
+Apr 11 20:49:17.583 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 
+Apr 11 20:49:17.587 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 1 
+Apr 11 20:50:47.006 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 1 
+Apr 11 20:50:47.164 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 1 
+Apr 11 20:50:47.178 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 1 
+Apr 11 20:50:47.359 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 1 
+Apr 11 20:51:59.770 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 1 
+Apr 11 20:51:59.782 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 1 
+Apr 11 20:51:59.802 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 1 
+Apr 11 20:52:00.137 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 1 
+Apr 11 20:52:02.987 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 1 
+Apr 11 20:52:03.159 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 1 
+Apr 11 20:52:03.520 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 1 
+Apr 11 20:52:03.700 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 1 
+Apr 11 20:52:04.274 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-8f5ad04e-9b3b-45cc-81f6-25abf7a30e36 1 
+Apr 11 20:52:04.445 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-b8925fc5-373c-4107-b55c-a6d70ec88e03 1 
+Apr 11 20:52:04.612 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-3e307417-68b4-4ca6-a5a4-a3e9419d5ad8 1 
+Apr 11 20:52:04.631 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW77 udp-dd359a30-5609-4223-8d47-fb21d1855979 1 
+Apr 11 20:55:09.245 HYPERVISOR: exec_cmd: ethsw delete SA-SW77 
+Apr 11 20:55:09.348 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 11 20:55:09.392 HYPERVISOR: Stopped.
+Apr 11 20:55:09.392 GENERAL: reset done.
