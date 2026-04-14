@@ -2381,7 +2381,7 @@
                 "template_id": "67202892-53c8-462a-9e5a-548c2974f5f3",
                 "width": 66,
                 "x": -436,
-                "y": -124,
+                "y": -125,
                 "z": 1
             },
             {
@@ -3155,12 +3155,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "STUD-4",
-                    "x": -3,
+                    "text": "STUD-4-Hop20",
+                    "x": -35,
                     "y": -25
                 },
                 "locked": false,
-                "name": "STUD-4",
+                "name": "STUD-4-Hop20",
                 "node_id": "92593bf4-cd30-4049-8808-372635436d6c",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
