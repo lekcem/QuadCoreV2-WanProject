@@ -19,11 +19,11 @@
         "drawings": [
             {
                 "drawing_id": "5903c118-e45a-4929-b30a-65e9c9075657",
-                "locked": false,
+                "locked": true,
                 "rotation": 0,
                 "svg": "<svg width=\"2928\" height=\"1508\"><rect width=\"2928\" height=\"1508\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": -1804,
-                "y": -2058,
+                "x": -1276,
+                "y": -751,
                 "z": -2
             }
         ],
@@ -2563,12 +2563,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "STUD-1-Hop1",
-                    "x": -30,
+                    "text": "STUD-816042157",
+                    "x": -28,
                     "y": -25
                 },
                 "locked": false,
-                "name": "STUD-1-Hop1",
+                "name": "STUD-816042157",
                 "node_id": "a944b885-e55d-4f5b-9cdd-f434623b8146",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2607,8 +2607,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "d4c40e40-8a1d-40f4-aaac-1373d4a8465a",
                 "width": 66,
-                "x": -219,
-                "y": -7,
+                "x": -228,
+                "y": -6,
                 "z": 1
             },
             {
@@ -2703,7 +2703,7 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "SA-PC2",
-                    "x": -3,
+                    "x": 4,
                     "y": -25
                 },
                 "locked": false,
@@ -2790,12 +2790,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "STUD-2-Hop20",
-                    "x": -35,
+                    "text": "STUD-816047756",
+                    "x": -28,
                     "y": -25
                 },
                 "locked": false,
-                "name": "STUD-2-Hop20",
+                "name": "STUD-816047756",
                 "node_id": "75def392-5d25-4eec-b0e1-612662c2416e",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -2958,12 +2958,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "STUD-3-Hop20",
-                    "x": -35,
+                    "text": "STUD-816041452",
+                    "x": -28,
                     "y": -25
                 },
                 "locked": false,
-                "name": "STUD-3-Hop20",
+                "name": "STUD-816041452",
                 "node_id": "b422da33-f679-4df8-a844-f6ab13f65f73",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -3155,12 +3155,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "STUD-4-Hop20",
-                    "x": -35,
+                    "text": "STUD-816040729",
+                    "x": -28,
                     "y": -25
                 },
                 "locked": false,
-                "name": "STUD-4-Hop20",
+                "name": "STUD-816040729",
                 "node_id": "92593bf4-cd30-4049-8808-372635436d6c",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -5511,6 +5511,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.52",
-    "zoom": 59
+    "version": "2.2.57",
+    "zoom": 50
 }
