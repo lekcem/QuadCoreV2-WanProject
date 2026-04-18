@@ -678,38 +678,6 @@
             },
             {
                 "filters": {},
-                "link_id": "5b7cfe2d-6ec8-4b81-aaf1-004becc8dbae",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "s0/2",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "ff09cc11-a6c3-491c-8d6e-14a0d83a99b8",
-                        "port_number": 32
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "s0/0",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "b422da33-f679-4df8-a844-f6ab13f65f73",
-                        "port_number": 16
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "bf9e9d58-a0f1-4af0-96df-da4ee0988645",
                 "link_style": {},
                 "nodes": [
@@ -5511,6 +5479,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.57",
+    "version": "2.2.52",
     "zoom": 50
 }
