@@ -10,7 +10,7 @@
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
-    "show_interface_labels": false,
+    "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": false,
     "supplier": null,
@@ -4604,7 +4604,7 @@
                 "template_id": "d4c40e40-8a1d-40f4-aaac-1373d4a8465a",
                 "width": 66,
                 "x": 282,
-                "y": -393,
+                "y": -392,
                 "z": 1
             },
             {
@@ -5480,5 +5480,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.57",
-    "zoom": 71
+    "zoom": 100
 }

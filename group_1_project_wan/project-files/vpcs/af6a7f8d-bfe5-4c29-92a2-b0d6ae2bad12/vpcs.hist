@@ -1,0 +1,50 @@
+ping 123.123.123.123
+ping 172.16.100.2
+ping 172.16.100.2
+traceroute 123.123.123.123
+ping 10.10.1.1
+ping 192.168.100.1
+ping 192.168.101.1
+ping 192.168.102.1ping 192.168.102.1
+ping 192.168.102.1
+show ip bgp
+all
+show ip route bgp
+show ip all
+show ip bgp all
+ping 172.16.100.2
+ping 172.16.100.2
+traceroute 123.123.123.123
+?
+trace 123.123.123.123
+ping 10.10.1.1
+ping 10.10.2.1
+ping 192.168.100.1
+ping 192.168.101.1
+ping 192.168.102.1
+ping 142.251.154.119
+ping 8.8.8.8
+ping 104.16.41.2
+ping 64.28.139.128
+ping 
+ping 64.28.139.128
+ping 64.28.139.240
+ping 172.16.101.2
+ping 172.16.100.2
+05 ms
+l=253 time=19.263 ms
+                   Print help
+          Shortcut for: ip dhcp. Get IPv4 address via DHCP
+rtcut for: show history. List the command history
+) or TCP/UDP. See ping ?
+iguration to the file FILENAME
+ST [OPTION ...]  Print the path packets take to network HOST
+ hops max, press Ctrl+C to stop
+ ms  20.237 ms  19.011 ms
+P type:3, code:1, Destination host unreachable)
+0.2 icmp_seq=4 ttl=253 time=18.139 ms (ICMP type:3, code:1, Destination host unreachable)
+ time=13.887 ms
+ ping 192.168.100.1
+e=20.431 ms (ICMP type:3, code:1, Destination host unreachable)
+chable)
+q=3 ttl=253 time=4.838 ms (ICMP type:3, code:1, Destination host unreachable)
