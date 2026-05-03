@@ -1312,38 +1312,6 @@
             },
             {
                 "filters": {},
-                "link_id": "56be6e3b-95ad-4a55-a0c0-289593977379",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "s0/2",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "a944b885-e55d-4f5b-9cdd-f434623b8146",
-                        "port_number": 32
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "s0/1",
-                            "x": 33,
-                            "y": 22
-                        },
-                        "node_id": "b5bd697e-8b32-4f89-b96d-7686f4793e47",
-                        "port_number": 17
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "5cd5c276-3e9a-4c7c-b3fd-dbfe59ab44b8",
                 "link_style": {},
                 "nodes": [
